@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styless.css">
 <style>
   body {
     margin: 0;
@@ -25,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 300px;
+    min-height: 200px;
     padding: 100px 20vw;
   }
 
@@ -49,36 +50,7 @@
    background: #FFFFFF;
  }
 
- .curve{
- posiiton: absolute;
- height: 225px;
- width: 100%;
- bottom: 0;
- }
 
- .curve::before{
- content: '';
- display: block;
- position: absolute;
- border-radius: 100% 50%;
- width: 55%;
- height: 100%;
- background-color: #FFFFFF;
- transform: translate(48%,19%);
-
- }
-
- .curve::after{
- content: '';
- display: block;
- position: absolute;
- border-radius: 100% 50%;
- width: 55%;
- height: 100%;
- background-color: #222222;
- transform: translate(-42%,60%);
-z-index: -1;
- }
 
 
 
@@ -113,15 +85,17 @@ z-index: -1;
   </nav>
   <section class="dark">
     <h1 style="font-size: 100px;">Sahayog</h1>
+ </section>
+  <section class="white" style="min-height: 700px;">
+    <button type="button" name="button"></button>
 
- <div class="curve"></div>
-  </section>
-  <section class="white">
-    <h1>Nice curves</h1>
-    <p>Curves are like roads, the more the curves the more beautiful it is so yeah I like it like that</p>
-  </section>
-
-  <section>
+    <div class="wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+</section>
+<section>
     <h1>Nice curves</h1>
     <p>Curves are like roads, the more the curves the more beautiful it is so yeah I like it like that</p>
   </section>
